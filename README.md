@@ -1,4 +1,4 @@
-# README
+# 学习使用 wails 开发客户端程序
 
 ## About
 
