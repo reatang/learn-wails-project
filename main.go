@@ -2,8 +2,7 @@ package main
 
 import (
 	"embed"
-
-	"learn-wails-project/backend/controllers"
+	"learn-wails-project/backend/api"
 
 	"github.com/wailsapp/wails/v2"
 	"github.com/wailsapp/wails/v2/pkg/options"
@@ -29,7 +28,7 @@ func main() {
 		OnStartup:        app.startup,
 		Bind: []interface{}{
 			app,
-			&controllers.HelloController{},
+			&api.HelloApi{},
 		},
 	})
 

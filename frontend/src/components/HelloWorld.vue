@@ -1,7 +1,7 @@
 <script setup>
 import {reactive} from 'vue'
 import {Greet} from '../../wailsjs/go/main/App'
-import {Hello} from '../../wailsjs/go/controllers/HelloController'
+import {Hello} from '../../wailsjs/go/api/HelloApi'
 import {types} from '../../wailsjs/go/models'
 
 const data = reactive({
